@@ -1,0 +1,42 @@
+{
+    "name": "glennbaquero/php-image-puzzle-captcha",
+    "description": "Pure PHP puzzle captcha library that generates image-based puzzle challenges with X/Y validation. No JavaScript required.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "captcha",
+        "puzzle-captcha",
+        "security",
+        "php",
+        "image",
+        "anti-bot"
+    ],
+    "authors": [
+        {
+            "name": "Glenn Baquero",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PuzzleCaptcha\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PuzzleCaptcha\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
