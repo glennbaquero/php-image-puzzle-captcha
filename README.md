@@ -1,11 +1,9 @@
 ﻿# WIP PROJECT
 
-## PHP Image Puzzle CAPTCHA
+# PHP Image-Based Puzzle CAPTCHA
 
-A **pure PHP, image-based puzzle CAPTCHA** that verifies humans by asking them to identify the **X and Y coordinates** of a missing puzzle piece.
+A PHP-based image puzzle CAPTCHA that **generates a puzzle** and verifies humans by asking them to identify the **X and Y coordinates** of the missing piece.
 
-✔ No JavaScript  
-✔ No canvas  
 ✔ Uses **Intervention Image** for image processing  
 ✔ Framework-agnostic (Laravel supported) 
 
@@ -41,4 +39,5 @@ Install via Composer:
 ```bash
 composer require glennbaquero/php-image-puzzle-captcha
 ```
+
 
