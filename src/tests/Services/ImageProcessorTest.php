@@ -3,7 +3,7 @@
 namespace PuzzleCaptcha\Tests\Services;
 
 use PHPUnit\Framework\TestCase;
-use YourPackage\Captcha\Services\ImageProcessor;
+use PuzzleCaptcha\Services\ImageProcessor;
 use Intervention\Image\ImageManagerStatic as Image;
 
 class ImageProcessorTest extends TestCase
