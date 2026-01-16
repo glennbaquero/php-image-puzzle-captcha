@@ -25,7 +25,7 @@ class ImageProcessor
         $this->quality       = $quality;
         $this->stripMetadata = $stripMetadata;
 
-        // ✅ Intervention Image v3 manager
+        // Intervention Image v3 manager
         $this->manager = new ImageManager(new Driver());
     }
 
